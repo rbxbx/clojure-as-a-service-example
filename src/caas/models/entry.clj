@@ -31,6 +31,12 @@
   [id]
   (first (db/exec (where { :id id }))))
 
+(defn create
+  "Creates a new entry given an attribute map"
+  [attributes]
+  (db/insert entries
+    (db/values attributes)))
+
 ; (defn publish!
 ;   "Marks an entry as published"
 ;   [entry]
