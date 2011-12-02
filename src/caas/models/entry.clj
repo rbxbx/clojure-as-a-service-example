@@ -2,13 +2,12 @@
   (:use korma.db)
   (:require [korma.core :as db]))
 
-(defdb development
-       (mysql { :db "caas_development.db"
-               :classname "org.sqlite.JDBC"
-               :subprotocol "sqlite"
-               :subname "caas_development.db"
-               :username "root"
-               :password "" }))
+(defdb development { :db "caas_development.db"
+                     :classname "org.sqlite.JDBC"
+                     :subprotocol "sqlite"
+                     :subname "caas_development.db"
+                     :username "root"
+                     :password "" })
 
 (db/defentity entries)
 
