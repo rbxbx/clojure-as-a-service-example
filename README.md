@@ -1,17 +1,10 @@
-# caas
+This is a simple example of exposing a (restful?) service via Clojure.
+One would likely consume this via perhaps a Rails app or Backbone.js app or XYZ app.
 
-A website written in noir. 
+Blah blah blah, mostly for my own learning. Sorry.
 
-## Usage
+Technology Stack Thusfar:
 
-```bash
-lein deps
-lein run
-```
-
-## License
-
-Copyright (C) 2011 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
-
+* Clojure
+* Noir
+* Korma
