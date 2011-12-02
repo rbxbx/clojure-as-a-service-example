@@ -1,0 +1,13 @@
+{
+        "name": "Clojure as a Service",
+                "description": "Simple, rambly, etc",
+                "sections": [
+                        {"section":"01-intro"},
+                        {"section":"02-why-fp"},
+                        {"section":"03-why-clj"},
+                        {"section":"04-oop-vs-fp"},
+                        {"section":"05-bring-it-to-life"},
+                        {"section":"06-so-why-not"},
+                        {"section":"07-concrete"}
+                ]
+}
